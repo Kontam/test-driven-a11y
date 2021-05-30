@@ -1,0 +1,51 @@
+.form {
+  display: flex;
+}
+
+.input {
+  border: solid 1px lightgray;
+}
+
+.singleLabel {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.mainHeading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.subHeading {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.item {
+  margin-right: 10px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 70px;
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.disabled {
+  opacity: 0.5;
+}
+
+.success {
+  color: tomato;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
